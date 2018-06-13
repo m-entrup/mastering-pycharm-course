@@ -18,6 +18,14 @@ class Creature:
 class Wizard(Creature):
 
     def attack(self, creature):
+        """ Attack the given creature.
+
+        :param creature:
+            The attacked creature that will perform a defensive roll.
+        :return:
+            True if the wizard wins.
+            False if the wizard looses.
+        """
         print("The wizard {} attacks {}!".format(
             self.name, creature.name
         ))
