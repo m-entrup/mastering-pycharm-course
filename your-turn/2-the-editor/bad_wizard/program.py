@@ -40,6 +40,7 @@ def game_loop():
     ]
 
     hero = Wizard('Gandolf', 75)
+    hero.wake_up()
 
 
     while True:

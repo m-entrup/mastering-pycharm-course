@@ -35,6 +35,9 @@ class Wizard(Creature):
             print("The wizard has been DEFEATED!!!")
             return False
 
+    def wake_up(self):
+        print("The wizard named {name} awakens.".format(name=self.name))
+
 
 class SmallAnimal(Creature):
     def get_defensive_roll(self):
