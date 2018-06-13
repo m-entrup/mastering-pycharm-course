@@ -1,7 +1,5 @@
-import time
-import os
-import datetime
 import random
+import time
 
 from actors import Wizard, Creature, SmallAnimal, Dragon
 
